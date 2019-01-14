@@ -6,7 +6,7 @@ import argparse
 import sqlite3
 import json
 
-parser = argparse.ArgumentParser(description='Export IPhone SMS messages to Sailfish OS Commhistory json format')
+parser = argparse.ArgumentParser(description='Export iPhone SMS messages to Sailfish OS Commhistory json format')
 parser.add_argument('db_path', help='Path to sms.db')
 parser.add_argument('output_json', help='Output json')
 
